@@ -30,6 +30,7 @@ const App = () => (
             <Route path={ROUTES.HOME} component={Home}/>
             <Route path={ROUTES.ACCOUNT} component={Account}/>
             <Route path={ROUTES.ADMIN} component={Admin}/>
+            
         </div>
     </Router>
 );
